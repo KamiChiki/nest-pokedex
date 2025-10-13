@@ -16,10 +16,9 @@ imports: [
     MongooseModule.forRoot('mongodb://localhost:27017/nest-pokedex'),
 
     PokemonModule,
-
     CommonModule,
-
     SeedModule
+    
   ],
 })
 
